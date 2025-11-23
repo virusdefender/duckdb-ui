@@ -10,7 +10,7 @@ namespace httplib = duckdb_httplib_openssl;
 // Chosen to be no more than half of the lesser of the two limits:
 //  - The default httplib thread pool size = 8
 //  - The browser limit on the number of server-sent event connections = 6
-#define MAX_EVENT_WAIT_COUNT 3
+#define MAX_EVENT_WAIT_COUNT 6
 
 namespace duckdb {
 namespace ui {
